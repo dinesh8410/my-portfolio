@@ -1,0 +1,31 @@
+/* Add styles for the About Me section */
+#about {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-content img {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.about-content .bio {
+    max-width: 600px;
+}
+
+.about-content .bio h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-content .bio p {
+    font-size: 18px;
+    line-height: 1.6;
+}
